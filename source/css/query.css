@@ -67,6 +67,16 @@
 */
 
 @media (max-width: 55em) {
+  p {
+    line-height: 1.4;
+  }
+
+  input,
+  select {
+    width: 90%;
+    padding: 0.8rem;
+  }
+
   #zbcc > .form-block form section.data-block > header .block-description {
     font-size: 1.2rem;
     padding: 1.6rem;
