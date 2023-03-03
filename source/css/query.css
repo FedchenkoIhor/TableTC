@@ -1,5 +1,27 @@
 /* 
     *************************************
+              ABOVE 1696px 
+    *************************************
+*/
+
+@media (min-width: 106em) {
+  p {
+    font-size: 1.8rem;
+    line-height: 1.8;
+  }
+
+  #zbcc > .form-block form section.data-block > .input-data .base-inputs {
+    padding-bottom: 9.8rem;
+  }
+
+  #zbcc > .form-block form section.data-block > header h3.block-title {
+    margin-bottom: 6.2rem;
+    padding-left: 12.8rem;
+  }
+}
+
+/* 
+    *************************************
               BELOW 1408px 
     *************************************
 */
@@ -68,6 +90,7 @@
 
 @media (max-width: 55em) {
   p {
+    font-size: 1.4rem;
     line-height: 1.4;
   }
 
